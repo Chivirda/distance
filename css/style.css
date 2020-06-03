@@ -4,6 +4,7 @@
 
 body {
     font-family: sans-serif;
+    background: #E5E5E5;
 }
 
 .header {
@@ -114,4 +115,42 @@ body {
 
 .header-icon:hover {
     fill: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu-sidebar {
+    max-width: 192px;
+}
+
+.menu-sidebar .user-avatar {
+    width: 24px;
+    height: 24px;
+}
+
+.menu-sidebar .user-name {
+    color: #262626;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: normal;
+}
+
+.nav-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav-link {
+    padding: 4px 8px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.nav-link.active {
+    background: #ffffff;
 }
